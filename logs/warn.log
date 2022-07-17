@@ -1,0 +1,567 @@
+[2022-07-14T12:55:10.643] [ERROR] custom - CustomError {
+  code: 500,
+  description: 'Error getting all products',
+  detail: CustomError {
+    code: 500,
+    description: 'Error connecting to Mongo Atlas Data Base',
+    detail: MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+        at NativeConnection.Connection.openUri (/home/ryoma/Programacion/BackEnd/ProyectoFinal/server/node_modules/mongoose/lib/connection.js:689:11)
+        at /home/ryoma/Programacion/BackEnd/ProyectoFinal/server/node_modules/mongoose/lib/index.js:378:10
+        at /home/ryoma/Programacion/BackEnd/ProyectoFinal/server/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+        at new Promise (<anonymous>)
+        at promiseOrCallback (/home/ryoma/Programacion/BackEnd/ProyectoFinal/server/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+        at Mongoose._promiseOrCallback (/home/ryoma/Programacion/BackEnd/ProyectoFinal/server/node_modules/mongoose/lib/index.js:1223:10)
+        at Mongoose.connect (/home/ryoma/Programacion/BackEnd/ProyectoFinal/server/node_modules/mongoose/lib/index.js:377:20)
+        at MongoAtlasClient.connect (file:///home/ryoma/Programacion/BackEnd/ProyectoFinal/server/src/classes/MongoAtlasClient.class.js:16:25)
+        at ProductsDAOMongo.getAll (file:///home/ryoma/Programacion/BackEnd/ProyectoFinal/server/src/services/products/ProductsDAO.mongo.js:17:29)
+        at getAllProducts (file:///home/ryoma/Programacion/BackEnd/ProyectoFinal/server/src/controllers/products.controller.js:9:30)
+  }
+}
+[2022-07-14T13:04:05.904] [ERROR] custom - CustomError {
+  code: 500,
+  description: 'Error getting all products',
+  detail: CustomError {
+    code: 500,
+    description: 'Error connecting to Mongo Atlas Data Base',
+    detail: MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+        at NativeConnection.Connection.openUri (/home/ryoma/Programacion/BackEnd/ProyectoFinal/server/node_modules/mongoose/lib/connection.js:689:11)
+        at /home/ryoma/Programacion/BackEnd/ProyectoFinal/server/node_modules/mongoose/lib/index.js:378:10
+        at /home/ryoma/Programacion/BackEnd/ProyectoFinal/server/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+        at new Promise (<anonymous>)
+        at promiseOrCallback (/home/ryoma/Programacion/BackEnd/ProyectoFinal/server/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+        at Mongoose._promiseOrCallback (/home/ryoma/Programacion/BackEnd/ProyectoFinal/server/node_modules/mongoose/lib/index.js:1223:10)
+        at Mongoose.connect (/home/ryoma/Programacion/BackEnd/ProyectoFinal/server/node_modules/mongoose/lib/index.js:377:20)
+        at MongoAtlasClient.connect (file:///home/ryoma/Programacion/BackEnd/ProyectoFinal/server/src/classes/MongoAtlasClient.class.js:16:25)
+        at ProductsDAOMongo.getAll (file:///home/ryoma/Programacion/BackEnd/ProyectoFinal/server/src/services/products/ProductsDAO.mongo.js:17:29)
+        at getAllProducts (file:///home/ryoma/Programacion/BackEnd/ProyectoFinal/server/src/controllers/products.controller.js:9:30)
+  }
+}
+[2022-07-14T13:24:22.077] [ERROR] custom - CustomError {
+  code: 500,
+  description: 'Error getting all products',
+  detail: CustomError {
+    code: 500,
+    description: 'Error connecting to Mongo Atlas Data Base',
+    detail: MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+        at NativeConnection.Connection.openUri (/home/ryoma/Programacion/BackEnd/ProyectoFinal/server/node_modules/mongoose/lib/connection.js:689:11)
+        at /home/ryoma/Programacion/BackEnd/ProyectoFinal/server/node_modules/mongoose/lib/index.js:378:10
+        at /home/ryoma/Programacion/BackEnd/ProyectoFinal/server/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+        at new Promise (<anonymous>)
+        at promiseOrCallback (/home/ryoma/Programacion/BackEnd/ProyectoFinal/server/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+        at Mongoose._promiseOrCallback (/home/ryoma/Programacion/BackEnd/ProyectoFinal/server/node_modules/mongoose/lib/index.js:1223:10)
+        at Mongoose.connect (/home/ryoma/Programacion/BackEnd/ProyectoFinal/server/node_modules/mongoose/lib/index.js:377:20)
+        at MongoAtlasClient.connect (file:///home/ryoma/Programacion/BackEnd/ProyectoFinal/server/src/classes/MongoAtlasClient.class.js:16:25)
+        at ProductsDAOMongo.getAll (file:///home/ryoma/Programacion/BackEnd/ProyectoFinal/server/src/services/products/ProductsDAO.mongo.js:17:29)
+        at getAllProducts (file:///home/ryoma/Programacion/BackEnd/ProyectoFinal/server/src/controllers/products.controller.js:9:30)
+  }
+}
+[2022-07-16T19:28:34.935] [ERROR] custom - MongooseError: Operation `usuarios.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:151:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+[2022-07-16T19:29:15.344] [ERROR] custom - MongooseError: Operation `usuarios.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:151:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+[2022-07-16T19:30:41.204] [ERROR] custom - MongooseError: Operation `usuarios.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:151:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+[2022-07-16T19:47:39.296] [ERROR] custom - CustomError {
+  code: 500,
+  description: 'Error deleting user',
+  detail: Error: data and hash arguments required
+      at Object.compare (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\bcrypt\bcrypt.js:208:17)
+      at E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\bcrypt\promises.js:29:12
+      at new Promise (<anonymous>)
+      at Object.module.exports.promise (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\bcrypt\promises.js:20:12)
+      at Object.compare (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\bcrypt\bcrypt.js:204:25)
+      at UsersDAOMongo.login (file:///E:/PROGRAMACION/BackEnd/ProyectoFinal/server/src/services/users/UsersDAO.mongo.js:104:43)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+      at async loginUser (file:///E:/PROGRAMACION/BackEnd/ProyectoFinal/server/src/controllers/users.controller.js:43:19)
+}
+[2022-07-16T19:49:21.655] [ERROR] custom - CustomError {
+  code: 500,
+  description: 'Error login user',
+  detail: Error: secretOrPrivateKey must have a value
+      at Object.module.exports [as sign] (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\jsonwebtoken\sign.js:107:20)
+      at UsersDAOMongo.login (file:///E:/PROGRAMACION/BackEnd/ProyectoFinal/server/src/services/users/UsersDAO.mongo.js:109:31)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+      at async loginUser (file:///E:/PROGRAMACION/BackEnd/ProyectoFinal/server/src/controllers/users.controller.js:43:19)
+}
+[2022-07-16T19:50:52.454] [ERROR] custom - CustomError {
+  code: 500,
+  description: 'Error login user',
+  detail: Error: secretOrPrivateKey must have a value
+      at Object.module.exports [as sign] (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\jsonwebtoken\sign.js:107:20)
+      at UsersDAOMongo.login (file:///E:/PROGRAMACION/BackEnd/ProyectoFinal/server/src/services/users/UsersDAO.mongo.js:109:31)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+      at async loginUser (file:///E:/PROGRAMACION/BackEnd/ProyectoFinal/server/src/controllers/users.controller.js:43:19)
+}
+[2022-07-16T19:53:47.136] [ERROR] custom - CustomError {
+  code: 500,
+  description: 'Error login user',
+  detail: Error: secretOrPrivateKey must have a value
+      at Object.module.exports [as sign] (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\jsonwebtoken\sign.js:107:20)
+      at UsersDAOMongo.login (file:///E:/PROGRAMACION/BackEnd/ProyectoFinal/server/src/services/users/UsersDAO.mongo.js:108:31)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+      at async loginUser (file:///E:/PROGRAMACION/BackEnd/ProyectoFinal/server/src/controllers/users.controller.js:43:19)
+}
+[2022-07-16T19:55:16.286] [ERROR] custom - CustomError {
+  code: 500,
+  description: 'Error login user',
+  detail: Error: secretOrPrivateKey must have a value
+      at Object.module.exports [as sign] (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\jsonwebtoken\sign.js:107:20)
+      at UsersDAOMongo.login (file:///E:/PROGRAMACION/BackEnd/ProyectoFinal/server/src/services/users/UsersDAO.mongo.js:106:31)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+      at async loginUser (file:///E:/PROGRAMACION/BackEnd/ProyectoFinal/server/src/controllers/users.controller.js:43:19)
+}
+[2022-07-16T16:58:23.574] [ERROR] custom - CustomError {
+  code: 500,
+  description: 'Error login user',
+  detail: Error: secretOrPrivateKey must have a value
+      at Object.module.exports [as sign] (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\jsonwebtoken\sign.js:107:20)
+      at UsersDAOMongo.login (file:///E:/PROGRAMACION/BackEnd/ProyectoFinal/server/src/services/users/UsersDAO.mongo.js:107:31)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+      at async loginUser (file:///E:/PROGRAMACION/BackEnd/ProyectoFinal/server/src/controllers/users.controller.js:43:19)
+}
+[2022-07-16T17:03:39.038] [ERROR] custom - CustomError {
+  code: 500,
+  description: 'Error login user',
+  detail: ReferenceError: res is not defined
+      at UsersDAOMongo.login (file:///E:/PROGRAMACION/BackEnd/ProyectoFinal/server/src/services/users/UsersDAO.mongo.js:119:7)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+      at async loginUser (file:///E:/PROGRAMACION/BackEnd/ProyectoFinal/server/src/controllers/users.controller.js:43:19)
+}
+[2022-07-16T17:08:30.356] [ERROR] custom - CustomError {
+  code: 500,
+  description: 'Error login user',
+  detail: ReferenceError: others is not defined
+      at UsersDAOMongo.login (file:///E:/PROGRAMACION/BackEnd/ProyectoFinal/server/src/services/users/UsersDAO.mongo.js:118:24)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+      at async loginUser (file:///E:/PROGRAMACION/BackEnd/ProyectoFinal/server/src/controllers/users.controller.js:43:19)
+}
+[2022-07-16T17:19:36.221] [ERROR] custom - CustomError {
+  code: 500,
+  description: 'Error login user',
+  detail: Error: data and hash arguments required
+      at Object.compare (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\bcrypt\bcrypt.js:208:17)
+      at E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\bcrypt\promises.js:29:12
+      at new Promise (<anonymous>)
+      at Object.module.exports.promise (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\bcrypt\promises.js:20:12)
+      at Object.compare (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\bcrypt\bcrypt.js:204:25)
+      at UsersDAOMongo.login (file:///E:/PROGRAMACION/BackEnd/ProyectoFinal/server/src/services/users/UsersDAO.mongo.js:107:34)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+      at async loginUser (file:///E:/PROGRAMACION/BackEnd/ProyectoFinal/server/src/controllers/users.controller.js:43:19)
+}
+[2022-07-16T21:36:12.314] [ERROR] custom - CustomError {
+  code: 500,
+  description: 'Error saving new cart',
+  detail: TypeError: this.collection.save is not a function
+      at CartDAOMongo.save (file:///E:/PROGRAMACION/BackEnd/ProyectoFinal/server/src/services/carts/CartsDAO.mongo.js:53:35)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+      at async saveCart (file:///E:/PROGRAMACION/BackEnd/ProyectoFinal/server/src/controllers/carts.controller.js:27:17)
+}
+[2022-07-16T21:42:37.033] [ERROR] custom - CustomError {
+  code: 500,
+  description: 'Error saving new product',
+  detail: TypeError: this.collection.save is not a function
+      at ProductsDAOMongo.save (file:///E:/PROGRAMACION/BackEnd/ProyectoFinal/server/src/services/products/ProductsDAO.mongo.js:61:35)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+      at async saveProduct (file:///E:/PROGRAMACION/BackEnd/ProyectoFinal/server/src/controllers/products.controller.js:28:19)
+}
+[2022-07-16T21:43:39.510] [ERROR] custom - CustomError {
+  code: 500,
+  description: 'Error saving new product',
+  detail: TypeError: this.collection.save is not a function
+      at ProductsDAOMongo.save (file:///E:/PROGRAMACION/BackEnd/ProyectoFinal/server/src/services/products/ProductsDAO.mongo.js:61:35)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+      at async saveProduct (file:///E:/PROGRAMACION/BackEnd/ProyectoFinal/server/src/controllers/products.controller.js:28:19)
+}
+[2022-07-17T17:24:05.684] [ERROR] custom - CustomError {
+  code: 500,
+  description: 'Error saving product to cart',
+  detail: ReferenceError: productos is not defined
+      at CartDAOMongo.saveToCart (file:///E:/PROGRAMACION/BackEnd/ProyectoFinal/server/src/services/carts/CartsDAO.mongo.js:109:25)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+      at async saveProdToCart (file:///E:/PROGRAMACION/BackEnd/ProyectoFinal/server/src/controllers/carts.controller.js:59:17)
+}
+[2022-07-17T17:27:10.404] [ERROR] custom - CustomError {
+  code: 500,
+  description: 'Error saving product to cart',
+  detail: CastError: Cast to ObjectId failed for value "{ id_prod: '62d35bf0abdda6ed52c3f955' }" (type Object) at path "_id" for model "productos"
+      at model.Query.exec (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\query.js:4780:21)
+      at model.Query.Query.then (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\query.js:4879:15)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    messageFormat: undefined,
+    stringValue: `"{ id_prod: '62d35bf0abdda6ed52c3f955' }"`,
+    kind: 'ObjectId',
+    value: { id_prod: '62d35bf0abdda6ed52c3f955' },
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\bson\lib\error.js:41:28)
+        at new ObjectId (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\bson\lib\objectid.js:67:23)
+        at castObjectId (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\cast\objectid.js:25:12)
+        at ObjectId.cast (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schema\objectid.js:246:12)
+        at ObjectId.SchemaType.applySetters (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schematype.js:1188:12)
+        at ObjectId.SchemaType._castForQuery (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schematype.js:1622:15)
+        at ObjectId.SchemaType.castForQuery (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schematype.js:1612:15)
+        at ObjectId.SchemaType.castForQueryWrapper (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schematype.js:1589:20)
+        at cast (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\cast.js:288:34)
+        at model.Query.Query.cast (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\query.js:5202:12),
+    valueType: 'Object'
+  }
+}
+[2022-07-17T17:28:08.749] [ERROR] custom - CustomError {
+  code: 500,
+  description: 'Error saving product to cart',
+  detail: MongoServerError: Plan executor error during findAndModify :: caused by :: Performing an update on the path '_id' would modify the immutable field '_id'
+      at Connection.onMessage (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongodb\lib\cmap\connection.js:210:30)
+      at MessageStream.<anonymous> (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongodb\lib\cmap\connection.js:63:60)
+      at MessageStream.emit (node:events:527:28)
+      at processIncomingData (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongodb\lib\cmap\message_stream.js:132:20)
+      at MessageStream._write (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+      at writeOrBuffer (node:internal/streams/writable:389:12)
+      at _write (node:internal/streams/writable:330:10)
+      at MessageStream.Writable.write (node:internal/streams/writable:334:10)
+      at TLSSocket.ondata (node:internal/streams/readable:754:22)
+      at TLSSocket.emit (node:events:527:28) {
+    ok: 0,
+    code: 66,
+    codeName: 'ImmutableField',
+    '$clusterTime': {
+      clusterTime: new Timestamp({ t: 1658089690, i: 3 }),
+      signature: [Object]
+    },
+    operationTime: new Timestamp({ t: 1658089690, i: 3 }),
+    [Symbol(errorLabels)]: Set(0) {}
+  }
+}
+[2022-07-17T17:47:35.951] [ERROR] custom - CustomError {
+  code: 500,
+  description: 'Error getting product',
+  detail: CastError: Cast to ObjectId failed for value "utiles" (type string) at path "_id" for model "productos"
+      at model.Query.exec (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\query.js:4780:21)
+      at model.Query.Query.then (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\query.js:4879:15)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    messageFormat: undefined,
+    stringValue: '"utiles"',
+    kind: 'ObjectId',
+    value: 'utiles',
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\bson\lib\error.js:41:28)
+        at new ObjectId (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\bson\lib\objectid.js:67:23)
+        at castObjectId (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\cast\objectid.js:25:12)
+        at ObjectId.cast (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schema\objectid.js:246:12)
+        at ObjectId.SchemaType.applySetters (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schematype.js:1188:12)
+        at ObjectId.SchemaType._castForQuery (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schematype.js:1622:15)
+        at ObjectId.SchemaType.castForQuery (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schematype.js:1612:15)
+        at ObjectId.SchemaType.castForQueryWrapper (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schematype.js:1589:20)
+        at cast (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\cast.js:344:32)
+        at model.Query.Query.cast (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\query.js:5202:12),
+    valueType: 'string'
+  }
+}
+[2022-07-17T17:48:16.033] [ERROR] custom - CustomError {
+  code: 500,
+  description: 'Error getting product',
+  detail: CastError: Cast to ObjectId failed for value "utiles" (type string) at path "_id" for model "productos"
+      at model.Query.exec (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\query.js:4780:21)
+      at model.Query.Query.then (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\query.js:4879:15)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    messageFormat: undefined,
+    stringValue: '"utiles"',
+    kind: 'ObjectId',
+    value: 'utiles',
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\bson\lib\error.js:41:28)
+        at new ObjectId (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\bson\lib\objectid.js:67:23)
+        at castObjectId (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\cast\objectid.js:25:12)
+        at ObjectId.cast (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schema\objectid.js:246:12)
+        at ObjectId.SchemaType.applySetters (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schematype.js:1188:12)
+        at ObjectId.SchemaType._castForQuery (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schematype.js:1622:15)
+        at ObjectId.SchemaType.castForQuery (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schematype.js:1612:15)
+        at ObjectId.SchemaType.castForQueryWrapper (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schematype.js:1589:20)
+        at cast (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\cast.js:344:32)
+        at model.Query.Query.cast (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\query.js:5202:12),
+    valueType: 'string'
+  }
+}
+[2022-07-17T17:49:06.928] [ERROR] custom - CustomError {
+  code: 500,
+  description: 'Error getting product',
+  detail: CastError: Cast to ObjectId failed for value "utiles" (type string) at path "_id" for model "productos"
+      at model.Query.exec (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\query.js:4780:21)
+      at model.Query.Query.then (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\query.js:4879:15)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    messageFormat: undefined,
+    stringValue: '"utiles"',
+    kind: 'ObjectId',
+    value: 'utiles',
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\bson\lib\error.js:41:28)
+        at new ObjectId (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\bson\lib\objectid.js:67:23)
+        at castObjectId (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\cast\objectid.js:25:12)
+        at ObjectId.cast (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schema\objectid.js:246:12)
+        at ObjectId.SchemaType.applySetters (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schematype.js:1188:12)
+        at ObjectId.SchemaType._castForQuery (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schematype.js:1622:15)
+        at ObjectId.SchemaType.castForQuery (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schematype.js:1612:15)
+        at ObjectId.SchemaType.castForQueryWrapper (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schematype.js:1589:20)
+        at cast (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\cast.js:344:32)
+        at model.Query.Query.cast (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\query.js:5202:12),
+    valueType: 'string'
+  }
+}
+[2022-07-17T17:50:29.010] [ERROR] custom - CustomError {
+  code: 500,
+  description: 'Error getting product',
+  detail: CastError: Cast to ObjectId failed for value "new" (type string) at path "_id" for model "productos"
+      at model.Query.exec (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\query.js:4780:21)
+      at model.Query.Query.then (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\query.js:4879:15)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    messageFormat: undefined,
+    stringValue: '"new"',
+    kind: 'ObjectId',
+    value: 'new',
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\bson\lib\error.js:41:28)
+        at new ObjectId (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\bson\lib\objectid.js:67:23)
+        at castObjectId (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\cast\objectid.js:25:12)
+        at ObjectId.cast (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schema\objectid.js:246:12)
+        at ObjectId.SchemaType.applySetters (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schematype.js:1188:12)
+        at ObjectId.SchemaType._castForQuery (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schematype.js:1622:15)
+        at ObjectId.SchemaType.castForQuery (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schematype.js:1612:15)
+        at ObjectId.SchemaType.castForQueryWrapper (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schematype.js:1589:20)
+        at cast (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\cast.js:344:32)
+        at model.Query.Query.cast (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\query.js:5202:12),
+    valueType: 'string'
+  }
+}
+[2022-07-17T18:00:51.007] [ERROR] custom - CustomError {
+  code: 500,
+  description: 'Error getting product',
+  detail: CastError: Cast to ObjectId failed for value ":id=62d47675d7c9fa73d79b672b" (type string) at path "_id" for model "productos"
+      at model.Query.exec (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\query.js:4780:21)
+      at model.Query.Query.then (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\query.js:4879:15)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    messageFormat: undefined,
+    stringValue: '":id=62d47675d7c9fa73d79b672b"',
+    kind: 'ObjectId',
+    value: ':id=62d47675d7c9fa73d79b672b',
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\bson\lib\error.js:41:28)
+        at new ObjectId (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\bson\lib\objectid.js:67:23)
+        at castObjectId (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\cast\objectid.js:25:12)
+        at ObjectId.cast (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schema\objectid.js:246:12)
+        at ObjectId.SchemaType.applySetters (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schematype.js:1188:12)
+        at ObjectId.SchemaType._castForQuery (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schematype.js:1622:15)
+        at ObjectId.SchemaType.castForQuery (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schematype.js:1612:15)
+        at ObjectId.SchemaType.castForQueryWrapper (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schematype.js:1589:20)
+        at cast (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\cast.js:344:32)
+        at model.Query.Query.cast (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\query.js:5202:12),
+    valueType: 'string'
+  }
+}
+[2022-07-17T18:01:06.570] [ERROR] custom - CustomError {
+  code: 500,
+  description: 'Error getting product',
+  detail: CastError: Cast to ObjectId failed for value ":_id=62d47675d7c9fa73d79b672b" (type string) at path "_id" for model "productos"
+      at model.Query.exec (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\query.js:4780:21)
+      at model.Query.Query.then (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\query.js:4879:15)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    messageFormat: undefined,
+    stringValue: '":_id=62d47675d7c9fa73d79b672b"',
+    kind: 'ObjectId',
+    value: ':_id=62d47675d7c9fa73d79b672b',
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\bson\lib\error.js:41:28)
+        at new ObjectId (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\bson\lib\objectid.js:67:23)
+        at castObjectId (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\cast\objectid.js:25:12)
+        at ObjectId.cast (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schema\objectid.js:246:12)
+        at ObjectId.SchemaType.applySetters (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schematype.js:1188:12)
+        at ObjectId.SchemaType._castForQuery (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schematype.js:1622:15)
+        at ObjectId.SchemaType.castForQuery (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schematype.js:1612:15)
+        at ObjectId.SchemaType.castForQueryWrapper (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schematype.js:1589:20)
+        at cast (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\cast.js:344:32)
+        at model.Query.Query.cast (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\query.js:5202:12),
+    valueType: 'string'
+  }
+}
+[2022-07-17T18:02:53.481] [ERROR] custom - CustomError {
+  code: 500,
+  description: 'Error getting product',
+  detail: CastError: Cast to ObjectId failed for value "insumos" (type string) at path "_id" for model "productos"
+      at model.Query.exec (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\query.js:4780:21)
+      at model.Query.Query.then (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\query.js:4879:15)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    messageFormat: undefined,
+    stringValue: '"insumos"',
+    kind: 'ObjectId',
+    value: 'insumos',
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\bson\lib\error.js:41:28)
+        at new ObjectId (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\bson\lib\objectid.js:67:23)
+        at castObjectId (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\cast\objectid.js:25:12)
+        at ObjectId.cast (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schema\objectid.js:246:12)
+        at ObjectId.SchemaType.applySetters (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schematype.js:1188:12)
+        at ObjectId.SchemaType._castForQuery (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schematype.js:1622:15)
+        at ObjectId.SchemaType.castForQuery (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schematype.js:1612:15)
+        at ObjectId.SchemaType.castForQueryWrapper (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schematype.js:1589:20)
+        at cast (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\cast.js:344:32)
+        at model.Query.Query.cast (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\query.js:5202:12),
+    valueType: 'string'
+  }
+}
+[2022-07-17T18:03:43.660] [ERROR] custom - CustomError {
+  code: 500,
+  description: 'Error getting product',
+  detail: CastError: Cast to ObjectId failed for value "insumos" (type string) at path "_id" for model "productos"
+      at model.Query.exec (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\query.js:4780:21)
+      at model.Query.Query.then (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\query.js:4879:15)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    messageFormat: undefined,
+    stringValue: '"insumos"',
+    kind: 'ObjectId',
+    value: 'insumos',
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\bson\lib\error.js:41:28)
+        at new ObjectId (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\bson\lib\objectid.js:67:23)
+        at castObjectId (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\cast\objectid.js:25:12)
+        at ObjectId.cast (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schema\objectid.js:246:12)
+        at ObjectId.SchemaType.applySetters (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schematype.js:1188:12)
+        at ObjectId.SchemaType._castForQuery (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schematype.js:1622:15)
+        at ObjectId.SchemaType.castForQuery (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schematype.js:1612:15)
+        at ObjectId.SchemaType.castForQueryWrapper (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schematype.js:1589:20)
+        at cast (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\cast.js:344:32)
+        at model.Query.Query.cast (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\query.js:5202:12),
+    valueType: 'string'
+  }
+}
+[2022-07-17T18:04:42.299] [ERROR] custom - CustomError {
+  code: 500,
+  description: 'Error getting product',
+  detail: CastError: Cast to ObjectId failed for value "insumos" (type string) at path "_id" for model "productos"
+      at model.Query.exec (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\query.js:4780:21)
+      at model.Query.Query.then (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\query.js:4879:15)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    messageFormat: undefined,
+    stringValue: '"insumos"',
+    kind: 'ObjectId',
+    value: 'insumos',
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\bson\lib\error.js:41:28)
+        at new ObjectId (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\bson\lib\objectid.js:67:23)
+        at castObjectId (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\cast\objectid.js:25:12)
+        at ObjectId.cast (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schema\objectid.js:246:12)
+        at ObjectId.SchemaType.applySetters (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schematype.js:1188:12)
+        at ObjectId.SchemaType._castForQuery (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schematype.js:1622:15)
+        at ObjectId.SchemaType.castForQuery (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schematype.js:1612:15)
+        at ObjectId.SchemaType.castForQueryWrapper (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schematype.js:1589:20)
+        at cast (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\cast.js:344:32)
+        at model.Query.Query.cast (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\query.js:5202:12),
+    valueType: 'string'
+  }
+}
+[2022-07-17T18:06:57.966] [ERROR] custom - CustomError {
+  code: 500,
+  description: 'Error getting product',
+  detail: CastError: Cast to ObjectId failed for value "insumos" (type string) at path "_id" for model "productos"
+      at model.Query.exec (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\query.js:4780:21)
+      at model.Query.Query.then (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\query.js:4879:15)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    messageFormat: undefined,
+    stringValue: '"insumos"',
+    kind: 'ObjectId',
+    value: 'insumos',
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\bson\lib\error.js:41:28)
+        at new ObjectId (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\bson\lib\objectid.js:67:23)
+        at castObjectId (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\cast\objectid.js:25:12)
+        at ObjectId.cast (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schema\objectid.js:246:12)
+        at ObjectId.SchemaType.applySetters (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schematype.js:1188:12)
+        at ObjectId.SchemaType._castForQuery (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schematype.js:1622:15)
+        at ObjectId.SchemaType.castForQuery (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schematype.js:1612:15)
+        at ObjectId.SchemaType.castForQueryWrapper (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schematype.js:1589:20)
+        at cast (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\cast.js:344:32)
+        at model.Query.Query.cast (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\query.js:5202:12),
+    valueType: 'string'
+  }
+}
+[2022-07-17T18:10:32.859] [ERROR] custom - CustomError {
+  code: 500,
+  description: 'Error getting product',
+  detail: CastError: Cast to ObjectId failed for value "insumos" (type string) at path "_id" for model "productos"
+      at model.Query.exec (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\query.js:4780:21)
+      at model.Query.Query.then (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\query.js:4879:15)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    messageFormat: undefined,
+    stringValue: '"insumos"',
+    kind: 'ObjectId',
+    value: 'insumos',
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\bson\lib\error.js:41:28)
+        at new ObjectId (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\bson\lib\objectid.js:67:23)
+        at castObjectId (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\cast\objectid.js:25:12)
+        at ObjectId.cast (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schema\objectid.js:246:12)
+        at ObjectId.SchemaType.applySetters (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schematype.js:1188:12)
+        at ObjectId.SchemaType._castForQuery (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schematype.js:1622:15)
+        at ObjectId.SchemaType.castForQuery (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schematype.js:1612:15)
+        at ObjectId.SchemaType.castForQueryWrapper (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schematype.js:1589:20)
+        at cast (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\cast.js:344:32)
+        at model.Query.Query.cast (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\query.js:5202:12),
+    valueType: 'string'
+  }
+}
+[2022-07-17T18:11:02.490] [ERROR] custom - CustomError {
+  code: 500,
+  description: 'Error getting product',
+  detail: CastError: Cast to ObjectId failed for value "insumos" (type string) at path "_id" for model "productos"
+      at model.Query.exec (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\query.js:4780:21)
+      at model.Query.Query.then (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\query.js:4879:15)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    messageFormat: undefined,
+    stringValue: '"insumos"',
+    kind: 'ObjectId',
+    value: 'insumos',
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\bson\lib\error.js:41:28)
+        at new ObjectId (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\bson\lib\objectid.js:67:23)
+        at castObjectId (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\cast\objectid.js:25:12)
+        at ObjectId.cast (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schema\objectid.js:246:12)
+        at ObjectId.SchemaType.applySetters (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schematype.js:1188:12)
+        at ObjectId.SchemaType._castForQuery (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schematype.js:1622:15)
+        at ObjectId.SchemaType.castForQuery (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schematype.js:1612:15)
+        at ObjectId.SchemaType.castForQueryWrapper (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\schematype.js:1589:20)
+        at cast (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\cast.js:344:32)
+        at model.Query.Query.cast (E:\PROGRAMACION\BackEnd\ProyectoFinal\server\node_modules\mongoose\lib\query.js:5202:12),
+    valueType: 'string'
+  }
+}
+[2022-07-17T19:53:30.871] [ERROR] custom - CustomError {
+  code: 500,
+  description: 'Error saving new cart',
+  detail: TypeError: newCart.create is not a function
+      at CartDAOMongo.save (file:///E:/PROGRAMACION/BackEnd/ProyectoFinal/server/src/services/carts/CartsDAO.mongo.js:54:31)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+      at async newCart (file:///E:/PROGRAMACION/BackEnd/ProyectoFinal/server/src/controllers/carts.controller.js:27:17)
+}
+[2022-07-17T20:08:13.055] [ERROR] custom - TypeError: findCart.products.deleteOne is not a function
+    at CartDAOMongo.eraseFromCart (file:///E:/PROGRAMACION/BackEnd/ProyectoFinal/server/src/services/carts/CartsDAO.mongo.js:129:44)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eraseProdFromCart (file:///E:/PROGRAMACION/BackEnd/ProyectoFinal/server/src/controllers/carts.controller.js:69:17)
+[2022-07-17T20:08:53.544] [ERROR] custom - ReferenceError: products is not defined
+    at CartDAOMongo.eraseFromCart (file:///E:/PROGRAMACION/BackEnd/ProyectoFinal/server/src/services/carts/CartsDAO.mongo.js:129:35)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eraseProdFromCart (file:///E:/PROGRAMACION/BackEnd/ProyectoFinal/server/src/controllers/carts.controller.js:69:17)

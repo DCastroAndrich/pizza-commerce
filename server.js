@@ -22,13 +22,15 @@ app.use(compression());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
+app.set("view engine", "ejs");
+
 /* ROUTES */
 
 app.use("/productos/", new ProductsRouter().start());
 app.use("/carrito/", new CartsRouter().start());
 app.use("/ordenes/", new OrdersRouter().start());
 app.use("/usuarios/", new UsersRouter().start());
-app.use("/auth/", new AuthRouter().start());
+app.use("/", new AuthRouter().start());
 
 /* SERVER LISTEN */
 

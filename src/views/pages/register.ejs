@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include("../partials/head.ejs") %>
+    <title>Registro de usuario</title>
+  </head>
+  <body>
+    <div class="container my-5">
+      <div class="jumbotron">
+        <h1>Registro de usuario</h1>
+        <br />
+        <form
+          class="form"
+          action="/register"
+          method="post"
+          role="form"
+          enctype="multipart/form-data"
+          autocomplete="off"
+        >
+          <div class="form-group">
+            <input
+              id="username"
+              name="username"
+              placeholder="Ingrese su email"
+              class="form-control"
+              type="text"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <input
+              id="password"
+              name="password"
+              placeholder="Ingrese su contraseña"
+              class="form-control"
+              type="password"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <input
+              id="name"
+              name="name"
+              placeholder="Ingrese su nombre"
+              class="form-control"
+              type="text"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <input
+              id="age"
+              name="age"
+              placeholder="Ingrese su edad"
+              class="form-control"
+              type="number"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <input
+              id="address"
+              name="address"
+              placeholder="Ingrese su direccion"
+              class="form-control"
+              type="text"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <input
+              id="phone"
+              name="phone"
+              placeholder="Ingrese su numero de telefono"
+              class="form-control"
+              type="tel"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <input
+              id="avatar"
+              name="avatar"
+              placeholder="Ingrese un avatar/foto"
+              class="form-control-file"
+              type="file"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <input
+              class="btn btn-success my-3"
+              type="submit"
+              value="Register"
+            />
+          </div>
+        </form>
+
+        <hr />
+
+        <div class="text-left">
+          <button
+            class="btn btn-success my-3"
+            onclick="location.href = '/login'"
+          >
+            Ir a Login
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

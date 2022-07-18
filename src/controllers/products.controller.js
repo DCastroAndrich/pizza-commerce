@@ -1,5 +1,6 @@
 import CustomError from "../classes/CustomError.class.js";
 import ProductsDAOFactory from "../classes/ProductsDAOFactory.class.js";
+import path from "path";
 
 const DAO = ProductsDAOFactory.get();
 
@@ -8,7 +9,7 @@ class ProductsController {
     try {
       const docs = await DAO.getAll(req.params.value);
 
-      res.status(200).json({response: "ok"}, docs);
+      res.status(200).json({response: "ok"}, docs).render(path.join(process.cwd(), "/src/views/pages/index.ejs"));
     } catch (error) {
       return new CustomError(500, "Error in 'getAllProducts' method", error);
     }
